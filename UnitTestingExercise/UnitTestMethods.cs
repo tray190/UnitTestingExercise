@@ -33,6 +33,13 @@ namespace UnitTestingExercise
 
 
         // Create 2 methods that will utilize the [Fact] tests you wrote
-       
+       public string HelloWorld()
+        {
+            return "Hello World";
+        }
+         public bool HasCars()
+        {
+            return true;
+        }
     }
 }

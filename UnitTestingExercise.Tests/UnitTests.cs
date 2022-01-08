@@ -55,24 +55,27 @@ namespace UnitTestingExercise.Tests
         }
 
         [Fact]
-        public void YourMethodName()
+        public void HelloWorld()
         {
             //Arrange
-            
+            var test4 = new UnitTestMethods();
+            string answer = "Hello World";
             //Act
-
+            var actual =  test4.HelloWorld();
             //Assert
-            
+            Assert.Equal(answer, actual);
         }
 
         [Fact]
-        public void YourMethodName2()
+        public void HasCars()
         {
             //Arrange
-
+            var test5 = new UnitTestMethods();
+            bool answer = true;
             //Act
-
+            var actual = test5.HasCars();
             //Assert
+            Assert.Equal(answer, actual);
         }
     }
 }
